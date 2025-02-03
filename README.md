@@ -74,13 +74,13 @@ We compare the following graph-based models:
 
 ## Visualization
 ### Scenario-Based Multi-Classification
-![Scenario-Based Multi-Classification Results](./multi_scenario.png)
+![Scenario-Based Multi-Classification Results](./multi_scenario.webp)
 
 ### Attack-Based Multi-Classification
-![Attack-Based Multi-Classification Results](./multi_attack.png)
+![Attack-Based Multi-Classification Results](./multi_attack.webp)
 
 ### Binary Classification
-![Binary Classification Results](./binary.png)
+![Binary Classification Results](./binary.webp)
 
 ## Key Findings
 - **Graph-Transformer** consistently outperforms other models across all tasks, achieving the highest precision, recall, F1-Score, and accuracy.
