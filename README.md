@@ -14,6 +14,35 @@ We compare the following graph-based models:
 - **GNN-MPNN**
 - **Graph-Transformer**
 
+## **Implementation Strategy**
+
+### 1. **Download Data**
+   - **Objective**: Download and prepare the dataset.
+   - **Process**:
+     - Download raw data files.
+     - Merge and preprocess data into a single file: `CICEVSE2024.csv`.
+     - Organize the dataset into suitable formats for binary, multi-attack, and multi-scenario classification.
+
+   - **Notebook**: [`Download_Data.ipynb`](./Download_Data.ipynb)
+
+---
+
+### 2. **Network Traffic Classification**
+
+#### **Binary Classification**
+   - **Objective**: Classify network traffic as either malicious or benign.
+   - **Notebook**: [`Network_Traffic_Binary.ipynb`](./Network_Traffic_Binary.ipynb)
+
+#### **Multi-Attack Classification**
+   - **Objective**: Identify specific types of network attacks in traffic.
+   - **Notebook**: [`Network_Traffic_Multi_Attack.ipynb`](./Network_Traffic_Multi_Attack.ipynb)
+
+#### **Multi-Scenario Classification**
+   - **Objective**: Detect different scenarios of network activity and classify them accurately.
+   - **Notebook**: [`Network_Traffic_Multi_Scenario.ipynb`](./Network_Traffic_Multi_Scenario.ipynb)
+
+---
+
 ## Results
 
 ### Multi-Classification - Scenario Based
@@ -45,13 +74,13 @@ We compare the following graph-based models:
 
 ## Visualization
 ### Scenario-Based Multi-Classification
-![Scenario-Based Multi-Classification Results](./path_to_scenario_based_image.png)
+![Scenario-Based Multi-Classification Results](./multi_scenario.png)
 
 ### Attack-Based Multi-Classification
-![Attack-Based Multi-Classification Results](./path_to_attack_based_image.png)
+![Attack-Based Multi-Classification Results](./multi_attack.png)
 
 ### Binary Classification
-![Binary Classification Results](./path_to_binary_classification_image.png)
+![Binary Classification Results](./binary.png)
 
 ## Key Findings
 - **Graph-Transformer** consistently outperforms other models across all tasks, achieving the highest precision, recall, F1-Score, and accuracy.
