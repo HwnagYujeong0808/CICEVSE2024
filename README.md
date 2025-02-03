@@ -35,13 +35,13 @@ We compare the following graph-based models:
 
 #### **Multi-Attack Classification**
    - **Objective**: Identify specific types of network attacks in traffic.
-   - **Attack Types**: Cryptojacking, Backdoor, None, TCP-port-scan, service-version-detection, os-fingerpriting, aggressive-scan, syn-stealth-scan, vulnerability-scan, slowloris-scan, upd-flood, icmp-flood, pshack-flood, icmp-fragmentation, TCP-flood, syn-flood, synonymousIP-flood
    - **Notebook**: [`Network_Traffic_Multi_Attack.ipynb`](./Network_Traffic_Multi_Attack.ipynb)
+      - **Attack Types**: Cryptojacking, Backdoor, None, TCP-port-scan, service-version-detection, os-fingerpriting, aggressive-scan, syn-stealth-scan, vulnerability-scan, slowloris-scan, upd-flood, icmp-flood, pshack-flood, icmp-fragmentation, TCP-flood, syn-flood, synonymousIP-flood
 
 #### **Multi-Scenario Classification**
    - **Objective**: Detect different scenarios of network activity and classify them.
-   - **Scenario Types**: Recon, DoS, Cryptojacking, Backdoor, Benign
    - **Notebook**: [`Network_Traffic_Multi_Scenario.ipynb`](./Network_Traffic_Multi_Scenario.ipynb)
+      - **Scenario Types**: Recon, DoS, Cryptojacking, Backdoor, Benign
 
 ---
 
