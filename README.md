@@ -56,7 +56,7 @@ We compare the following graph-based models:
 
 ### Multi-Classification - Attack Based
 | Model             | Precision | Recall | F1-Score | Accuracy |
--|-------------------|-----------|--------|----------|----------|
+|-------------------|-----------|--------|----------|----------|
 | GNN-SAGE          | 0.6403    | 0.6297 | 0.6177   | 0.6297   |
 | GNN-GAT           | 0.6210    | 0.6042 | 0.5907   | 0.6042   |
 | GNN-GCN           | 0.6136    | 0.5840 | 0.5719   | 0.5840   |
