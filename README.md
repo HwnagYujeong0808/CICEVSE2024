@@ -4,7 +4,7 @@
 This project explores the use of graph neural networks (GNNs) and transformer-based graph models for cyber intrusion detection in electric vehicle (EV) charging systems. The system focuses on three types of classifications:
 - Multi-classification based on **attack types**.
 - Multi-classification based on **scenarios**.
-- **Binary classification** for detecting malicious and benign traffic.
+- **Binary classification** for detecting attack and benign traffic.
 
 ## Implemented Models
 We compare the following graph-based models:
@@ -30,7 +30,7 @@ We compare the following graph-based models:
 ### 2. **Network Traffic Classification**
 
 #### **Binary Classification**
-   - **Objective**: Classify network traffic as either malicious or benign.
+   - **Objective**: Classify network traffic as either attack or benign.
    - **Notebook**: [`Network_Traffic_Binary.ipynb`](./Network_Traffic_Binary.ipynb)
 
 #### **Multi-Attack Classification**
@@ -38,7 +38,7 @@ We compare the following graph-based models:
    - **Notebook**: [`Network_Traffic_Multi_Attack.ipynb`](./Network_Traffic_Multi_Attack.ipynb)
 
 #### **Multi-Scenario Classification**
-   - **Objective**: Detect different scenarios of network activity and classify them accurately.
+   - **Objective**: Detect different scenarios of network activity and classify them.
    - **Notebook**: [`Network_Traffic_Multi_Scenario.ipynb`](./Network_Traffic_Multi_Scenario.ipynb)
 
 ---
